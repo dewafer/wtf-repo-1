@@ -1,0 +1,28 @@
+@font-face {
+    font-family: '美咲フォント';
+    src: url('../font/misaki_gothic.ttf') format('truetype'), url('../font/misaki_mincho.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'k8x12';
+    src: url('../font/k8x12.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Serif Black';
+    src: url('../font/NotoSerifSC-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('../font/PressStart2P-Regular.ttf') format('truetype');
+}
+
+html, body, pre, code, kbd, samp {
+    font-family: "Press Start 2P", 'Noto Serif Black', serif;
+}
+
+body, div {
+    margin: 1em;
+}
+
